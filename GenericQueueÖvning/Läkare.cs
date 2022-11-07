@@ -6,7 +6,7 @@ namespace GenericQueueÖvning
 {
     class Läkare : Person 
     {
-        int Salary;
+        private int Salary;
         public Läkare(string name, int age, string gender, int salary)
         {
             Role = "Läkare";
